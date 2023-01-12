@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 
 import Download from './pages/Download'
 import Main from './pages/Main'
-import Discord from './pages/Discord'
+import Community from './pages/Community'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,8 +19,9 @@ function App() {
         case '/download':
           PageComponent = <Download />
           break
-          case '/discord':
-            PageComponent = <Discord />
+          case '/community':
+            PageComponent = <Community />
+            break
     }
 
   return (

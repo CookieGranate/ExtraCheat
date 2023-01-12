@@ -11,9 +11,9 @@ const Navbar = () => {
 
                 <div id="center">
                     <ul>
-                        <li><a href="/">Extra Cheats</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="/download">Download</a></li>
-                        <li><a href="/discord">Discord</a></li>
+                        <li><a href="/community">Discord</a></li>
                     </ul>
                 </div>
             </nav>
